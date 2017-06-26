@@ -157,7 +157,6 @@ class AnimateDemo {
     const targetTouches = e.targetTouches[0];
     const scrollEnd = targetTouches.clientY;
     const differ = scrollEnd - this.scrollStart;
-    const height = this.root.height();
 
     if (Math.abs(differ) > 30 && typeof this.scrollStart === 'number') {
       if (differ > 0) {
@@ -276,9 +275,8 @@ class AnimateDemo {
         i,
         config: webC.loopImg,
         num: 0,
-      })
+      });
     }
-
   }
 }
 
