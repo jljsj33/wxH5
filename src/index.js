@@ -284,5 +284,9 @@ class AnimateDemo {
 
 $(() => {
   new AnimateDemo();
-  document.getElementById('music').play();
+  const audio = document.getElementById('music');
+  audio.play();
+  document.addEventListener("WeixinJSBridgeReady", function () {
+    audio.play();
+  }, false);
 });
