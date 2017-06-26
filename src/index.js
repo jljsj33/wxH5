@@ -27,8 +27,8 @@ const webConfig = [
 ];
 
 const imgLoadUrl = [
-  'h_0.png', 'h_1.png', 'H_1x.png', 'I_1x.png', 'ladder.png', 'logo.png', 'm_0.png', 'm_1.png',
-  'M_1x.png', 'M_loop_1x.png', 'slogan.png', 'title0.png', 'title1.png', 'title2.png', 'title3.png', 'Z_1x.png'
+  'h_0.png', 'h_1.png', 'H_1x.png', 'i_0.png', 'I_1x.png', 'ladder.png', 'logo.png', 'm_0.png', 'm_1.png',
+  'M_1x.png', 'M_loop_1x.png', 'slogan.png', 'title0.png', 'title1.png', 'title2.png', 'title3.png', 'title4.png', 'X_1x.png', 'Z_1x.png',
 ];
 
 const perFrame = 100;
