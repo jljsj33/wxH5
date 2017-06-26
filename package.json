@@ -1,0 +1,26 @@
+{
+  "name": "wxH5",
+  "version": "1.0.0",
+  "description": "",
+  "author": "gengmin.lgm",
+  "scripts": {
+    "dev": "dora -p 8001 --plugins webpack?disableNpmInstall",
+    "start": "tnpm run dev",
+    "build": "atool-build"
+  },
+  "entry": {
+    "index": "./src/index"
+  },
+  "dependencies": {
+    "dora": "^0.3.3",
+    "dora-plugin-config-manager": "^0.2.3",
+    "dora-plugin-hmr": "^0.7.1",
+    "dora-plugin-livereload": "^0.5.3",
+    "dora-plugin-webpack": "^0.6.5",
+    "gsap": "^1.19.1",
+    "zepto": "^1.2.0"
+  },
+  "devDependencies": {
+    "atool-build": "^0.9.0"
+  }
+}
