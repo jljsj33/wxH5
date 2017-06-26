@@ -284,5 +284,5 @@ class AnimateDemo {
 
 $(() => {
   new AnimateDemo();
-
+  document.getElementById('music').play();
 });
